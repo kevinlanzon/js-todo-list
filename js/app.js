@@ -1,11 +1,10 @@
 //Problem: User interaction doesn't provide desired results.
 //Solution: Add interactivity so the user can manage daily tasks.
 
-//new-task
-//first button
-//incomplete-tasks
-//completed-tasks
-//Add a new task
+var taskInput = document.getElementById("new-task"); //new-task
+var addButton = document.getElementsByTagName("button")[0]; //first button
+var incompleteTasksHolder = document.getElementById("incomplete-tasks"); //incomplete-tasks
+var completedTasksHolder = document.getElementById("completed-tasks"); //completed-tasks
 
 //Add a new task
 var addTask = function() {
@@ -38,13 +37,11 @@ var deleteTask = function() {
     //Remove the parent list from the ul
 };
 
-
 //Mark a task as complete
 var taskCompleted = function() {
   //when the check bov is checked
     //we want to append the list item from the #completed-tasks
 };
-
 
 //Mark a task as incomplete
 var taskIncomplete = function() {
