@@ -65,8 +65,10 @@ var bindTaskEvents = function(taskListItem, checkBoxEventHandler) {
 addButton.onclick = addTask;
 
 //Cycle over the incompleteTasksHolder ul list items
+for(var i = 0; i < incompleteTasksHolder.children.length; i++) {
   //for each list item
     //bind events to list items children (taskCompleted)
+};
 
 //Cycle over the completedTasksHolder ul list items
   //for each list item
